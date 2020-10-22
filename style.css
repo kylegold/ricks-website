@@ -106,3 +106,15 @@ nav {
     transform: rotate(-60deg) translate(5px, -6px);
   }
 }
+
+footer {
+  position: absolute;
+  height: 8vh;
+  width: 100%;
+  bottom: 0;
+  background-color: darkslateblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
