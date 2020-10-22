@@ -107,6 +107,15 @@ nav {
   }
 }
 
+main {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  height: 86vh;
+  background-image: url("ricks-map.jpeg");
+}
+
 footer {
   position: absolute;
   height: 8vh;
