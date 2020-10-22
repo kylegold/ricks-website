@@ -117,8 +117,8 @@ main {
 }
 
 footer {
-  position: absolute;
-  height: 8vh;
+  position: fixed;
+  height: 60px;
   width: 100%;
   bottom: 0;
   background-color: darkslateblue;
