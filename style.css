@@ -13,7 +13,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-color: darkslateblue;
+  background-color: #9a463d;
 }
 
 .logo {
@@ -119,12 +119,23 @@ main {
 
 footer {
   position: fixed;
-  height: 60px;
+  height: 80px;
   width: 100%;
   bottom: 0;
-  background-color: darkslateblue;
+  background-color: #9a463d;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  flex-direction: column;
   align-items: center;
   color: aliceblue;
+}
+
+footer a {
+  text-decoration: none;
+  color: #1ab7ea;
+  font-size: 1.5rem;
+}
+
+footer a:hover {
+  font-weight: 900;
 }
