@@ -5,7 +5,8 @@
 }
 
 body {
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
+  font-family: "Pacifico", cursive;
 }
 
 nav {
@@ -17,8 +18,7 @@ nav {
 }
 
 .logo {
-  font-family: "Pacifico", cursive;
-  color: aliceblue;
+  color: black;
   font-size: 20px;
   letter-spacing: 5px;
 }
@@ -31,7 +31,7 @@ nav {
 
 .nav-links a {
   text-decoration: none;
-  color: aliceblue;
+  color: black;
 }
 
 .nav-links li {
@@ -44,7 +44,7 @@ nav {
 .burger-menu div {
   width: 25px;
   height: 3px;
-  background-color: aliceblue;
+  background-color: black;
   margin: 4px;
   transition: all 3s ease;
 }
@@ -65,7 +65,7 @@ nav {
     right: 0px;
     height: 92vh;
     top: 8vh;
-    background-color: darkslateblue;
+    background-color: #9a463d;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -118,8 +118,8 @@ main {
 }
 
 footer {
-  position: fixed;
-  height: 80px;
+  position: relative;
+  height: 60px;
   width: 100%;
   bottom: 0;
   background-color: #9a463d;
