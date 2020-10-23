@@ -100,9 +100,7 @@ nav {
   .toggle .line-one {
     transform: rotate(-60deg) translate(-5px, 6px);
   }
-  .toggle .line-two {
-    /* transform: rotate(-60deg) translate(5px, -6px); */
-  }
+
   .toggle .line-three {
     transform: rotate(-60deg) translate(5px, -6px);
   }
